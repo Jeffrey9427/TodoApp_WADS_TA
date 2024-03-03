@@ -53,6 +53,9 @@
 
 .list li:has(input:checked) label {
     color: hsl(200, 20%, 40%);
+}
+
+.list li:has(input:checked) label div {
     text-decoration: line-through;
 }
 
